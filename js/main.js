@@ -19,7 +19,7 @@ const convertPokemonToLi = (pokemon) => {
                     ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
                 </ol>
 
-                <a href="http://localhost:8080/single?pokemon=${pokemon.number}"><img src="${pokemon.photo}"
+                <a href="https://carlos6464.github.io/Pokedex-Simples/single?pokemon=${pokemon.number}"><img src="${pokemon.photo}"
                 alt="${pokemon.name}"></a>
             </div>
         </li>
